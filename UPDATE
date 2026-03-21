@@ -1,0 +1,41 @@
+<section id="products" class="container">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg" alt="Phone">
+            <h3>Phones</h3>
+            <p>Latest smartphone models at the best prices.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg" alt="Laptop">
+            <h3>Laptops</h3>
+            <p>High performance laptops for work and gaming.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg" alt="Television">
+            <h3>Televisions</h3>
+            <p>Smart TVs with crisp display and smart features.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/1080887/pexels-photo-1080887.jpeg" alt="Woofers">
+            <h3>Woofers</h3>
+            <p>Powerful sound systems for music lovers.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg" alt="AirPods">
+            <h3>AirPods</h3>
+            <p>Crystal-clear wireless sound for your devices.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/5082570/pexels-photo-5082570.jpeg" alt="Accessories">
+            <h3>Chargers & Accessories</h3>
+            <p>Fast charging solutions and phone covers.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+    </div>
+</section>
