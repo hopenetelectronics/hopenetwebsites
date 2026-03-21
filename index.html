@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hopenet Electronics and Phone Accessories</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin:0; padding:0; background: #f9f9f9;}
+        header {background: linear-gradient(90deg, #ff66cc, #6699ff, #9933ff); color: white; padding: 30px 20px; text-align: center;}
+        header h1 {margin: 0; font-size: 2.5em;}
+        header p {margin: 5px 0 0; font-size: 1.2em;}
+
+        nav {background: #333; text-align: center;}
+        nav a {color: white; padding: 14px 20px; display: inline-block; text-decoration: none; font-weight: bold;}
+        nav a:hover {background: #555;}
+
+        .container {padding: 20px; max-width: 1200px; margin: auto;}
+        h2 {color: #333; text-align: center; margin-bottom: 20px;}
+
+        .products {display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;}
+        .product {background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;}
+        .product:hover {transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.2);}
+        .product img {width: 100%; border-radius: 10px;}
+        .product h3 {margin: 10px 0 5px; color: #ff66cc;}
+        .product p {color: #555; font-size: 0.9em;}
+        .product button {margin-top: 10px; padding: 10px 20px; background: #ff66cc; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s;}
+        .product button:hover {background: #9933ff;}
+
+        footer {background: #333; color: white; text-align: center; padding: 15px; margin-top: 40px;}
+
+        /* Contact form */
+        form {max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+        input, textarea {width: 100%; padding: 10px; margin: 8px 0; border-radius: 5px; border: 1px solid #ccc;}
+        button.submit-btn {background: #6699ff;}
+        button.submit-btn:hover {background: #9933ff;}
+
+        @media(max-width: 600px){
+            header h1 {font-size: 2em;}
+            nav a {display: block; padding: 10px;}
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hopenet Electronics and Phone Accessories</h1>
+    <p>Your one-stop shop for quality electronics and gadgets</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="container">
+    <h2>Welcome to Hopenet Electronics!</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">We provide high-quality phones, laptops, TVs, woofers, AirPods, chargers, and phone covers. Our goal is to bring you the best electronics at great prices, with excellent customer service.</p>
+</section>
+
+<section id="about" class="container">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">Hopenet Electronics and Phone Accessories started with a mission to make technology accessible to everyone. We are committed to providing reliable gadgets, innovative solutions, and affordable prices to meet all your electronics needs.</p>
+</section>
+
+<section id="products" class="container">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Phone" alt="Phone">
+            <h3>Phones</h3>
+            <p>Latest smartphone models at the best prices.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Laptop" alt="Laptop">
+            <h3>Laptops</h3>
+            <p>High performance laptops for work and gaming.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Television" alt="Television">
+            <h3>Televisions</h3>
+            <p>Smart TVs with crisp display and smart features.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Woofers" alt="Woofers">
+            <h3>Woofers</h3>
+            <p>Powerful sound systems for music lovers.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=AirPods" alt="AirPods">
+            <h3>AirPods</h3>
+            <p>Crystal-clear wireless sound for your devices.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Accessories" alt="Accessories">
+            <h3>Chargers & Accessories</h3>
+            <p>Fast charging solutions and phone covers.</p>
+            <button>Pay with M-Pesa</button>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+    <p style="text-align:center; margin-top:10px;">Email: hopenetelectronicsandphoneacce@gmail.com | Phone: 0751920923</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Hopenet Electronics and Phone Accessories | Your trusted source for quality electronics and accessories</p>
+</footer>
+
+</body>
+</html>
